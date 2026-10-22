@@ -10,8 +10,18 @@
 using namespace std;
 
 int main() {
-    // 여기에 작성
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int a,b;
+
+    cin >> a >> b;
+    cout << a+b << '\n' << a-b << '\n' << a*b << '\n' << a/b << '\n' << a%b << '\n'; // 여기에 작성
     return 0;
 }
 
-// AI 메모 (AI가 틀렸거나 애매했던 점 / 어떻게 확인했나):
+// AI 메모 (AI가 틀렸거나 애매했던 점 / 어떻게 확인했나): 이게 마지막 a%b 를 하면 -7 2
+-5
+-9
+-14
+-3
+-1lsshu@cjlabtop:~/coding-test/coding-01-환경설정과입출력$ 이런 식으로 맨 마지막 부분이 짤려서 잘 확인이 되지 않음 \n을 넣어도 그럼

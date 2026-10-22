@@ -5,11 +5,21 @@
 // 힌트 사용: 안 봄 / 힌트1 / 힌트2
 // AI 사용: 안 씀 / 풀고 나서 리뷰만 / 풀이 중에 씀
 // 막힌 점:
-
+#include <iomanip>
 #include <iostream>
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int a;
+
+    cin >> a;
+    cout << setfill('0') << setw(2) << a/3600  << ":" << setw(2) << a%3600/60 << ":" << setw(2) << a%3600%60  <<'\n';
+
+    
+
+
     // 여기에 작성
     return 0;
 }
