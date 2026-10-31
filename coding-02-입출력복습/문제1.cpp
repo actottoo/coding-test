@@ -10,6 +10,10 @@
 using namespace std;
 
 int main() {
+    int n; 
+    cin >> n;
+    cout << n/500 << ' ' << n % 500 / 100 << ' ' << n % 500 % 100 / 50 << ' ' << n % 500 % 100 % 50 /10  << '\n';
+    
     // 여기에 작성
     return 0;
 }
