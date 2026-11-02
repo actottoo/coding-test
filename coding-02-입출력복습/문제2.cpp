@@ -13,8 +13,8 @@ using namespace std;
 int main() {
     int A;
     cin >> A;
-    cout << hex << setfill('0') << setw(8) << uppercase << A << '\n';
-    cout << hex << setfill('0') << setw(8) << uppercase << A + 4 << '\n';
+    cout << hex << "0x"<< setfill('0') << setw(8) << uppercase <<  A << '\n';
+    cout << hex << "0x"<< setfill('0') << setw(8) << uppercase << A + 4 << '\n';
     cout << dec << A/4 << '\n';
     return 0;
 }
