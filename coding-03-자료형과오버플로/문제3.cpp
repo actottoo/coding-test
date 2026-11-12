@@ -13,7 +13,7 @@ using namespace std;
 int main() {
     int x;
     cin >> x;
-    cout << x << '\n' << "0x" << hex << setw(8) << setfill('0') << x << dec << '\n' <<  (unsigned int)x << '\n';
+    cout << x << '\n' << "0x" << hex << setw(8) << setfill('0') << uppercase << x << dec << '\n' <<  (unsigned int)x << '\n';
 
     return 0;
 }
